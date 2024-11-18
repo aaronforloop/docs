@@ -1,18 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Enlytning",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/wordmark-light.svg",
+    "light": "/logo/wordmark-dark.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#18181A",
+    "light": "#FAFAFA",
+    "dark": "#18181A",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#18181A",
+      "to": "#18181A"
     }
   },
   "topbarLinks": [
@@ -50,37 +50,32 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Creating Courses",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "course-creation/course-structure",
+        "course-creation/content-guidelines",
+        "course-creation/media-requirements"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Publishing",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "publishing/first-review-requirements",
+        "publishing/pricing-guidelines",
+        "publishing/course-visibility"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Marketplace",
       "pages": [
-        "api-reference/introduction"
+        "marketplace/getting-discovered",
+        "marketplace/student-engagement",
+        "marketplace/analytics"
       ]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "API Reference",
+      "pages": ["api-reference/introduction"]
     }
   ],
   "footerSocials": {
