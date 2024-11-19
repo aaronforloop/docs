@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Enlytning",
   "logo": {
-    "dark": "/logo/wordmark-light.svg",
-    "light": "/logo/wordmark-dark.svg"
+    "dark": "/logo/LogoPadding.svg",
+    "light": "/logo/LogoPadding.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@enlytning.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://enlytning.com/dashboard"
   },
   "tabs": [
     {
@@ -79,8 +79,7 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/enlytning",
+    "linkedin": "https://linkedin.com/company/enlytning"
   }
 }
