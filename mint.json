@@ -50,6 +50,10 @@
   ],
   "navigation": [
     {
+      "group": "Onboarding",
+      "pages": ["onboarding/manual-setup"]
+    },
+    {
       "group": "Creating Courses",
       "pages": [
         "course-creation/course-structure",
