@@ -65,10 +65,6 @@
         "marketplace/student-engagement",
         "marketplace/analytics"
       ]
-    },
-    {
-      "group": "API Reference",
-      "pages": ["api-reference/introduction"]
     }
   ],
   "footerSocials": {
