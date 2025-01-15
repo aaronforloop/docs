@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://enlytning.com/dashboard"
+    "url": "https://enlytning.com/home"
   },
   "anchors": [
     {
@@ -43,12 +43,17 @@
       "pages": ["onboarding/manual-setup"]
     },
     {
-      "group": "Creating Courses",
+      "group": "Create",
       "pages": [
-        "course-creation/course-structure",
-        "course-creation/content-guidelines",
-        "course-creation/media-requirements"
+        "create/getting-started",
+        "create/navigation",
+        "create/resources",
+        "create/publishing"
       ]
+    },
+    {
+      "group": "Creating Content",
+      "pages": ["create/courses", "create/surveys", "create/policies"]
     },
     {
       "group": "Publishing",
