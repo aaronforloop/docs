@@ -5,6 +5,7 @@
     "dark": "/logo/wordmark-dark.svg",
     "light": "/logo/wordmark-light.svg"
   },
+  "font": { "headings": { "family": "", "weight": 700 } },
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#18181A",
@@ -22,53 +23,95 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Open app",
     "url": "https://enlytning.com/home"
   },
-  "anchors": [
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
-      "group": "Onboarding",
-      "pages": ["onboarding/manual-setup"]
-    },
-    {
-      "group": "Create",
+      "group": "Getting Started",
       "pages": [
-        "create/getting-started",
-        "create/navigation",
-        "create/resources",
-        "create/publishing"
+        "getting-started/quick-start-guide",
+        "getting-started/core-concepts",
+        "getting-started/account-setup",
+        "getting-started/navigation-overview"
       ]
     },
     {
-      "group": "Creating Content",
-      "pages": ["create/courses", "create/surveys", "create/policies"]
-    },
-    {
-      "group": "Publishing",
+      "group": "Learning",
       "pages": [
-        "publishing/first-review-requirements",
-        "publishing/pricing-guidelines",
-        "publishing/course-visibility"
+        "learning/accessing-courses",
+        "learning/taking-courses-surveys",
+        "learning/progress-tracking",
+        "learning/assignments-deadlines",
+        "learning/certificates-completion"
       ]
     },
     {
       "group": "Marketplace",
       "pages": [
-        "marketplace/getting-discovered",
-        "marketplace/student-engagement",
-        "marketplace/analytics"
+        "marketplace/course-catalogue",
+        "marketplace/purchase-process",
+        "marketplace/purchase-requests",
+        "marketplace/wishlist-management",
+        "marketplace/organisation-overview"
+      ]
+    },
+    {
+      "group": "Content Creation",
+      "pages": [
+        "content-creation/course-creation-basics",
+        "content-creation/building-first-course",
+        "content-creation/unit-types",
+        "content-creation/media-management",
+        "content-creation/course-settings",
+        "content-creation/publishing-workflow",
+        "content-creation/version-control",
+        "content-creation/survey-creation",
+        "content-creation/policy-documents"
+      ]
+    },
+    {
+      "group": "Workspace Management",
+      "pages": [
+        "workspace/workspace-overview",
+        "workspace/media-library",
+        "workspace/content-organisation",
+        "workspace/collaboration-features",
+        "workspace/preview-testing"
+      ]
+    },
+    {
+      "group": "Administration",
+      "pages": [
+        "administration/user-management",
+        "administration/group-management",
+        "administration/organisation-settings",
+        "administration/subscription-management",
+        "administration/billing-overview",
+        "administration/content-management",
+        "administration/course-review-system",
+        "administration/signature-management",
+        "administration/purchase-management",
+        "administration/enrolment-management",
+        "administration/course-requests"
+      ]
+    },
+    {
+      "group": "Analytics & Reporting",
+      "pages": [
+        "analytics/learning-analytics",
+        "analytics/course-performance",
+        "analytics/user-progress",
+        "analytics/organisation-insights"
+      ]
+    },
+    {
+      "group": "Best Practices",
+      "pages": [
+        "best-practices/course-design",
+        "best-practices/content-creation",
+        "best-practices/assessment-methods",
+        "best-practices/survey-design"
       ]
     }
   ],
